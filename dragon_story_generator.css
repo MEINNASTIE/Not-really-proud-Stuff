@@ -1,0 +1,65 @@
+/* Dragon story generator CSS */
+
+/* BASE *.*.*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.dragon {
+    display: block;
+    margin: 0 auto;
+    line-height: 60px;
+    font-size: 28px;
+    float: left;
+    width: 50%;
+    padding: 30px;
+    color: #444445;
+    font-family: 'Felipa', cursive;
+}
+
+span {
+    color: #0D1329;
+    font-weight: bold;
+}
+
+.dragon h1 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#storyClick {
+    background-color: #444444;
+    color: #D4EAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.7;
+    cursor: pointer;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+
+#notice {
+    font-size: 18px;
+    color: #968987;
+}
+#notice:before {
+    content: " ";
+}
+
+img {
+    display: block;
+    float: right;
+    width: 50%;
+}
+
+#message {
+    padding: 40px 0;
+}
